@@ -1,6 +1,6 @@
 # Bonera Web Framewor
 
-##### Create, find and delete a binary tree
+##### Minimalist web framework for node.js
 
 ```javascript
 const bonera = require('bonera');
