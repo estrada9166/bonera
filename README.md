@@ -16,6 +16,7 @@
 - Patch
 - Post
 - Delete
+- Liste
 
 ##### create a middleware
 
@@ -24,24 +25,46 @@ app.use((req, res) => {
   //create the middleware to use
 })
 ```
-
 ##### access the params of the url using 
 
 ```javascript
 req.params
 ```
-
 ##### access the query of the url using 
 
 ```javascript
 req.query
 ```
-
 ##### access the form of the post using 
 
 ```javascript
 req.body
 ```
+##### get 
+```javascript
+app.get('/path', callback)
+```
+##### put 
+```javascript
+app.put('/path', callback)
+```
+##### patch 
+```javascript
+app.patch('/path', callback)
+```
+##### post
+```javascript
+app.post('/path', callback)
+```
+##### delete
+```javascript
+app.delete('/path', callback)
+```
+##### start the server 
+```javascript
+app.listen(port, callback)
+```
+
 
 #### e.g
 ------
@@ -84,6 +107,9 @@ app.delete('/user/:id', (req, res) => {
   console.log('A delete has been made, access to the params with req.params.id');
 });
 
+app.listen(8080, () => {
+  console.log('server running on port 8080')
+})
 
 ```
 

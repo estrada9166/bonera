@@ -1,6 +1,6 @@
 {
   "name": "bonera",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "minimalist web framework for node.js",
   "main": "bonera.js",
   "scripts": {
