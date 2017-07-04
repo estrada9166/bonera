@@ -23,5 +23,8 @@
   "homepage": "https://github.com/estrada9166/bonera#readme",
   "devDependencies": {
     "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "jest": "^20.0.4"
   }
 }
