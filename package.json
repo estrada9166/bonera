@@ -1,22 +1,27 @@
 {
   "name": "bonera",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "minimalist web framework for node.js",
   "main": "bonera.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/estrada9166/bonera.git"
   },
   "keywords": [
-    "nodejs"
+    "nodejs",
+    "web framework",
+    "minimalist"
   ],
   "author": "Alejandro Estrada",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/estrada9166/bonera/issues"
   },
-  "homepage": "https://github.com/estrada9166/bonera#readme"
+  "homepage": "https://github.com/estrada9166/bonera#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
 }
