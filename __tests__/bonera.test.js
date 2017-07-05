@@ -70,7 +70,7 @@ app.delete('/restaurant/:id', (req, res) => {
 })
 
 app.use((req, res) => {
-  console.log('Hello')
+  console.log('Hello a')
 })
 
 app.listen(3000);
